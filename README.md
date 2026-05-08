@@ -8,13 +8,14 @@ Welcome new student!
 
 ---
 
-## 0. Before you start
+## Before you start
 As a member of the DBL, you have a **DTU ID** that can look like `laugon` or 's252456'. It matches your DTU email address.
 You are expected to save your project's data in this DBL SharePoint folder before you leave: https://dtudk.sharepoint.com/:f:/s/DigitalBiotechnologyHub/IgDuPg7OM6jOR53D1LPQfIqIAcOzrtK1XqqaNNr9yY966ec?e=GpAaTv
 
 Depositting your data here is a prerequisite for you to getting your final grade :)
+Please, follow the folder structure shown in this repo, detailed below.
 
-## 1. Folder structure
+## Folder structure
 ```bash
 project_name/
 ├── README.md             # Overview and clear instructions on how to run
@@ -41,7 +42,7 @@ project_name/
 └── docs/                 # Project documentation (.ppt, posters, manuscripts)
 ```
 
-## 5. Numbering convention for scripts and results
+## Recommended naming convention for scripts and results
 
 The numbering of files in `scripts/` should match the **order of the pipeline** (just like following a recipe).  
 - Example: `01_preprocess.py` → run first, then `02_train.py` → run second, etc.
@@ -49,7 +50,7 @@ The numbering of files in `scripts/` should match the **order of the pipeline** 
 All outputs generated in the `results/` folder should also include the **same step number** in their filenames.  
 This makes it clear **which script produced which result** (see example below).
 
-### Example pipeline
+### Example pipeline recommendations
 ```bash
 Scripts:
 scripts/
@@ -67,7 +68,7 @@ results/
 └── 03_training_curve.png # created by 03_plot_results.py
 ```
 
-## 6. Running the full pipeline
+## Running the full pipeline
 
 Each script in `scripts/` is designed as one step in your workflow (like steps in a recipe).  
 - Scripts are **numbered** to indicate their order.  

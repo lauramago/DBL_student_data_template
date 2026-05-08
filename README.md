@@ -2,9 +2,11 @@
 
 This guide is meant for students joining the DBL.  
 
-Follow the instructions and contact your supervisor or [laugon@dtu.dk](mailto:laugon@dtu.dk) if you have any questions :)
-
 Welcome new student!
+
+Follow the data structure guidelines when you deposit your data in our data storage folder at the end of your project. Contact your supervisor or [laugon@dtu.dk](mailto:laugon@dtu.dk) if you have any questions :)
+
+The naming conventions of scripts are a recommendation. The folder structure is mandatory!
 
 ---
 
@@ -12,10 +14,9 @@ Welcome new student!
 As a member of the DBL, you have a **DTU ID** that can look like `laugon` or 's252456'. It matches your DTU email address.
 You are expected to save your project's data in this DBL SharePoint folder before you leave: https://dtudk.sharepoint.com/:f:/s/DigitalBiotechnologyHub/IgDuPg7OM6jOR53D1LPQfIqIAcOzrtK1XqqaNNr9yY966ec?e=GpAaTv
 
-Depositting your data here is a prerequisite for you to getting your final grade :)
-Please, follow the folder structure shown in this repo, detailed below.
+Depositting your data here is a prerequisite for you to getting your final grade. Please, follow the folder structure shown in this repo, detailed below.
 
-## Folder structure
+## Folder structure (mandatory)
 ```bash
 project_name/
 ├── README.md             # Overview and clear instructions on how to run
@@ -68,7 +69,7 @@ results/
 └── 03_training_curve.png # created by 03_plot_results.py
 ```
 
-## Running the full pipeline
+## Running the full pipeline (recommended)
 
 Each script in `scripts/` is designed as one step in your workflow (like steps in a recipe).  
 - Scripts are **numbered** to indicate their order.  
